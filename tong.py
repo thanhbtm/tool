@@ -99,14 +99,14 @@ while True:
     print("\033[1;31mSai định dạng!!!")
 if select == 1:
   try:
-    link = requests.get("https://raw.githubusercontent.com/thanhbtm1/golike/main/Goliketiktok.py").text
+    link = requests.get("https://raw.githubusercontent.com/thanhbtm/tool/main/Goliketiktok.py").text
   except:
     print("\033[1;36mTool Đang Bảo Trì Quay Lại Sau!!!")
     quit()
   exec(link)
 elif select == 2:
   try:
-    link = requests.get("https://raw.githubusercontent.com/thanhbtm1/golike/main/Golikeins.py").text
+    link = requests.get("https://raw.githubusercontent.com/thanhbtm/tool/main/Golikeins.py").text
   except:
     print("\033[1;36mTool Đang Bảo Trì Quay Lại Sau!!!")
     quit()
