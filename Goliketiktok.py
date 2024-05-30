@@ -158,6 +158,11 @@ for x in banner:
   sleep(0.001)
 print("")
 while True:
+  try:
+    if "drgh" not in banner:
+      quit()
+  except:
+      quit()
   if checkdoiacc == doiacc:
     dsaccloi.append(chontktiktok["data"][luachon - 1]["nickname"])
     print(f"\033[1;36mCác acc tiktok {dsaccloi} có vẻ gặp vấn đề nên đổi acc chạy đe")
