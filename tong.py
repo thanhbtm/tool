@@ -105,4 +105,4 @@ elif select == 3:
   path = "/storage/emulated/0/Download/golikeinsv1.py"
   with open(path, "wb") as file:
     file.write(response.content)
-  os.system("cd /sdcard/download && python golikeinsv1.py")  
+  os.system("cd /sdcard/download && python golikeinsv1.py")  hihi
